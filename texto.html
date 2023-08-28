@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="texto.css">
+    <link rel="stylesheet" href="menu-mobile.css">
+    <title>Pet Zen</title>
+</head>
+
+<body>
+    <header class="header ">
+        <div>
+            <nav class="navbar">
+             <a href="index.html">
+                <img class="logo" src="assetsPet/LogoExtenso.png" alt="">
+             </a>
+                <nav>
+                    <ul>
+                        <li><a  href="index.html">Home</a></li>
+                        <li><a  href="daycare.html">Day Care</a></li>
+                        <li><a  href="hospedagem.html">Hospedagem</a></li>
+                    </ul>
+                    
+                </nav>
+
+                <div class="menu-hamburguer">
+                    <input type="checkbox" id="menu-hamburguer" class="input-menu-hamburguer">
+
+                    <label for="menu-hamburguer">
+                        <div class="menu">
+                            <span class="hamburguer"></span>
+                        </div>
+                    </label>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="navMobile">
+
+        <h2>Menu</h2>
+
+        <ul>
+            <li><a onclick="fecharNav()" href="index.html">Home</a></li>
+            <li><a onclick="fecharNav()" href="hospedagem.html">Hospedagem</a></li>
+            <li><a onclick="fecharNav()" href="daycare.html">Day Care</a></li>
+        </ul>
+
+
+
+
+
+    </nav>
+
+   
+
+   
+
+    <!-- MAIN NOVA MOTO  -->
+
+     <main class="nova-moto" id="desc-moto">
+        <section class="nova-moto-image">
+            <figure>
+                <img data-aos="slide-left" data-aos-duration="1500" id="imgId" src="assetsPet/pngdo1.png" alt="">
+            </figure>
+        </section>
+        <br>
+        <section class="nova-moto-text">
+            <article>
+                <h1 id="textH1">Musica terapia</h1>
+                 <br>
+                <p id="textP">Onde os nossos melhores amigos de quatro patas descobrem um paraíso de diversão e cuidado! Nossa creche de cachorros é um refúgio alegre e seguro, projetado especialmente para proporcionar um dia repleto de brincadeiras, socialização e afeto. Nossa missão é oferecer um day care excepcional, onde cada latido é recebido com amor e cada rabinho abana de felicidade. Junte-se a nós nessa aventura emocionante, onde a felicidade dos nossos queridos amiguinhos é a nossa maior inspiração!</p>
+                
+            </article>
+        </section>
+
+        <a onclick="location.replace(document.referrer)">Voltar</a>
+
+    </main> 
+   
+
+
+    </section>
+   
+
+      <!-- BOTAO WHATSAPP -->
+
+		<a target="_blank" class="btnInsta" href="https://www.instagram.com/casapetzen/">
+        <img width="65" src="icons/instagram.png" alt="">
+    </a>
+    
+      <a target="_blank" class="btnWhatsapp" href="https://wa.me/5511949995555?text=Olá Casa PetZen! Gostaria de mais informações sobre a Creche e Hotel.">
+        <img width="65" src="icons/whatsapp.png" alt="">
+    </a>
+    <!--  -->
+
+   
+    <footer id="footer">
+
+        <div>
+            
+            <img class="logo" src="assetsPet/Logo.png" alt="">
+        </div>
+        <div class="listFooter">
+            <h2>Atendimento</h2>
+            <ul>
+                <li><a target="_blank" href="https://wa.me/5511949995555?text=Olá Casa PetZen! Gostaria de mais informações sobre a Creche e Hotel.">Fale conosco</a></li>
+                <li><a  style="cursor: pointer;" onclick="scrollToEmail()">Contato</a></li>
+               
+            </ul>
+        </div>
+        <div class="listFooter">
+            <h2>Informações</h2>
+            <ul>
+                <li><a href="">contato@casapetzen.com.br</a></li>
+                <li><a href="">(11)94999-5555</a></li>
+                <li><a href="">Rua Aurélia 891, Vila Romana - São Paulo SP</a></li>
+            </ul>
+        </div>
+        
+        <div class="redesSociais">
+            <div>
+                <a target="_blank" href="https://www.facebook.com/casapetzen">
+                    <img src="icons/facebook (1).png" alt="">
+                </a>
+            </div>
+            <div>
+                <a target="_blank" href="https://www.instagram.com/casapetzen/">
+                    <img src="icons/instagram (1).png" alt="">
+                </a>
+            </div>
+            <div>
+               <a target="_blank" href="https://www.tiktok.com/@casapetzen">
+                <img src="icons/tiktok.png" alt="">
+               </a>
+            </div>
+        </div>
+
+        
+
+    </footer>
+    <div class="madeby">
+        <p>© 2023 Pet Zen. Todos os direitos reservados.</p>
+        <p>
+            Desenvolvido por <a href="https://www.linkedin.com/in/guilherme-sella-588390273/">Guilherme Sella</a>
+            e <a href="https://www.linkedin.com/in/raphael-fran%C3%A7a-simonetti-76b625249/">Raphael Simonetti</a>
+        </p>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+<script src="main.js"></script>
+<script src="text.js"></script>
+</html>

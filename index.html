@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu-mobile.css">
+    <title>SolisPlus</title>
+</head>
+
+<body>
+    <header class="header ">
+        <div>
+            <nav class="navbar">
+                <img class="logo" src="" alt="">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a style="cursor: pointer;" onclick="scrollToContact()">Sobre Nós</a></li>
+                        <li><a href="#cards-flex">Serviços</a></li>                       
+                        <li><a  style="cursor: pointer;" onclick="scrollToEmail()">Contato</a></li>
+                    </ul>
+                    
+                </nav>
+
+                <div class="menu-hamburguer">
+                    <input type="checkbox" id="menu-hamburguer" class="input-menu-hamburguer">
+
+                    <label for="menu-hamburguer">
+                        <div class="menu">
+                            <span class="hamburguer"></span>
+                        </div>
+                    </label>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="navMobile">
+
+        <h2>Menu</h2>
+
+        <ul>
+            <li><a onclick="fecharNav()" href="index.html">Home</a></li>
+            <li><a onclick="fecharNav()" href="">Protótipos</a></li>
+            <li><a onclick="fecharNav()" href="">Sustentabilidade</a></li>
+            <li><a onclick="fecharNav()" href="#cards-flex">Serviços</a></li>
+            <li><a style="cursor: pointer;" onclick="fecharNav(),scrollToSobre()" >Sobre Nós</a></li>
+            <li><a onclick="fecharNav()" href="#footer">Contato</a></li>
+            
+        </ul>
+
+
+
+
+
+    </nav>
+
+    <section class="banner" id="banner">
+
+        <article class="banner-imagem">
+            <h1>SOLIS PLUS</h1>
+            <a style="cursor: pointer;" onclick="scrollToSobre()">Conheça-nos</a>
+
+        </article>
+
+    </section>
+
+    
+    <section class="sobre-nos" id="sobre-nos" >
+        <div class="class-sobre-nos" >
+            
+            <div class="texto-sobre" >
+                <h1 class="title">Sobre Nós</h1>
+                <p> Com uma visão orientada para o porvir, a Solis Plus emergiu. Esta organização é eminente por sua dedicação integral à vanguarda tecnológica da Inteligência Artificial (IA) e ao compromisso inabalável com a sustentabilidade.</p>
+            </div>
+            <img src="assetsPet/drone p.jpg">
+        </div>
+
+    </section>
+
+    <section class="cards-flex" id="cards-flex">
+        <div>
+            <h1 class="title">Serviços</h1>
+        </div>
+        <section class="card-section" data-aos="fade-up" data-aos-duration="500">
+            <div  class="card">
+                <a href="">
+                    <img src="https://t.ctcdn.com.br/qyEV-Wsz7U-4oBJLXxGQmGmMTwQ=/1400x788/smart/i333383.jpeg" alt="">
+                </a>
+               <a href="">
+                <div class="card-content">
+                    <span class="card-title">Protótipos</span>
+                    <span class="card-ver-mais">Ver mais</span>
+                </div>
+               </a>
+            </div>
+            <div class="card">
+              <a href="">
+                <img src="https://agevolution.canalrural.com.br/wp-content/uploads/2021/09/02-90670773-carbon-robotics.jpg" alt="">
+              </a>
+               <a href="">
+                <div class="card-content">
+                    <span class="card-title">Sustentabilidade</span>
+                    <span class="card-ver-mais">Ver mais</span>
+                </div>
+               </a>
+            </div>
+        </section>
+    </section>
+
+    
+
+     <main class="parallax-banner">
+        <section class="parallax background">
+
+        </section>
+
+    </main>
+    <br><br><br> 
+    <!-- <main class="main-estilo-motos" id="main-estilo-motos">
+
+        <h1 class="title">Escolha o seu estilo!</h1>
+        <section>
+            <article class="estilo-motos-cards">
+                <figure><img src="assets/fotoVoltz02.png" alt=""></figure>
+                <article class="estilo-moto-cards-text">
+                    <h1>Voltz AZX06</h1>
+                    <div>
+                        <p>A partir de </p>
+                        <strong>23.200.00</strong>
+                    </div>
+                    <div>
+                        <a href="">Tenho interesse</a>
+                    </div>
+                </article>
+            </article>
+            <article class="estilo-motos-cards">
+                <figure><img src="assets/motoVoltz1.png" alt=""></figure>
+                <article class="estilo-moto-cards-text">
+                    <h1>Voltz AZX06</h1>
+                    <div>
+                        <p>A partir de </p>
+                        <strong>23.200.00</strong>
+                    </div>
+                    <div>
+                        <a href="">Tenho interesse</a>
+                    </div>
+                </article>
+            </article>
+            <article class="estilo-motos-cards">
+                <figure><img src="assets/motoVoltz03-removebg-preview.png" alt=""></figure>
+                <article class="estilo-moto-cards-text">
+                    <h1>Voltz AZX06</h1>
+                    <div>
+                        <p>A partir de </p>
+                        <strong>23.200.00</strong>
+                    </div>
+                    <div>
+                        <a href="">Tenho interesse</a>
+                    </div>
+                </article>
+            </article>
+        </section>
+    </main> -->
+
+    <!-- <br><br><br><br><br><br><br> -->
+   
+
+    <main class="contato">
+
+        <div>
+            <h1 class="title">Entre em contato conosco!</h1>
+        </div>
+		
+		
+        <div class="class-contato">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14632.300605362725!2d-46.706475130224604!3d-23.529799299999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef877a61b4b1f%3A0x150b8f575400d71a!2sR.%20Aur%C3%A9lia%2C%20891%20-%20Vila%20Romana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005046-000!5e0!3m2!1spt-BR!2sbr!4v1688734302205!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form id="contactForm" class="Contato"  onsubmit="submitForm(event)">
+                
+                <div class="inputs">
+                    <input type="text" name="Nome"  id= "teste" class="input"  placeholder="Nome"  required>
+                    <input type="email" name="Email" id="teste" class="input" placeholder="E-mail" required/>
+                    
+                    <input type="number" name="Telefone" required id="teste" class="input" placeholder="Número de Telefone" />
+                    <textarea required  name="Mensagem" placeholder="Escreva uma mensagem:" id="" cols="30" rows="10"></textarea>
+                </div>
+                <button>ENVIAR</button>
+            </form>
+			
+				
+            <!-- <form id="contactForm" onsubmit="submitForm(event)">
+                <input type="text" name="Nome" placeholder="Digite seu nome" class="input" required>
+                <input type="email" name="Email" placeholder="Digite seu e-mail"  class="input" required>
+                <input type="number" name="Telefone" placeholder="Digite seu Telefone" class="input">
+            
+                <textarea cols="23" rows="7" name="Mensagem" placeholder="Digite sua mensagem"  class="input"></textarea>
+                
+                <button type="submit">ENVIAR</button>
+                
+                <input type="hidden" name="_subject" value="Novo Contato!">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+            </form> -->
+        </div>
+    </main>
+    
+
+    <!-- BOTAO WHATSAPP -->
+	<a target="_blank" class="btnInsta" href="">
+        <img width="65" src="icons/instagram.png" alt="">
+    </a>
+    <a target="_blank" class="btnWhatsapp" href="">
+        <img width="65" src="icons/whatsapp.png" href="https://wa.me/qr/OYTVP2UFUQZHE1" alt="">
+    </a>
+
+    <!--  -->
+
+    <footer id="footer">
+
+        <div>
+            
+            <img class="logo" src="" alt="">
+        </div>
+        <div class="listFooter">
+            <h2>Atendimento</h2>
+            <ul>
+                <li><a target="_blank" href="https://wa.me/qr/OYTVP2UFUQZHE1">Fale conosco</a></li>
+                <li><a  style="cursor: pointer;" onclick="scrollToEmail()">Contato</a></li>
+               
+            </ul>
+        </div>
+        <div class="listFooter">
+            <h2>Informações</h2>
+            <ul>
+                <li><a href="">solis.plus@gmail.com</a></li>
+                <li><a href="">(11)94629-9768</a></li>
+                <li><a href="">Praça Vinte e Um de Dezembro, 22, Osasco - São Paulo SP</a></li>
+            </ul>
+        </div>
+        
+        <div class="redesSociais">
+            <div>
+                <a target="_blank" href="">
+                    <img src="icons/facebook (1).png" alt="">
+                </a>
+            </div>
+            <div>
+                <a target="_blank" href="">
+                    <img src="icons/instagram (1).png" alt="">
+                </a>
+            </div>
+            <div>
+               <a target="_blank" href="">
+                <img src="icons/tiktok.png" alt="">
+               </a>
+            </div>
+        </div>
+
+        
+
+    </footer>
+
+    <div class="madeby">
+        <p>© 2023 SolisPlus. Todos os direitos reservados.</p>
+        <p>
+            Desenvolvido por <a href="">Lucas Vilarim</a>
+         .<a href=""></a>
+        </p>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+<script src="main.js"></script>
+
+</html>
